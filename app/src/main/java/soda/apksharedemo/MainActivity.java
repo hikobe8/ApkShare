@@ -45,6 +45,9 @@ public class MainActivity extends AppCompatActivity {
         getApps();
     }
 
+    /**
+     * 线程中获取本机所有已安装应用
+     */
     private void getApps() {
         new Thread(new Runnable() {
             @Override
